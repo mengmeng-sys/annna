@@ -1,0 +1,176 @@
+@font-face {
+    font-family: "CADT";
+    src: url("../fonts/CADTMonoDisplay-Regular.ttf");
+}
+
+@font-face {
+    font-family: "primary";
+    src: url("../fonts/GameScoreDemoRegular.ttf");
+}
+
+@font-face {
+    font-family: "secondary";
+    src: url("../fonts/Courier_New_Bold.ttf");
+}
+
+/* reset style */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "secondary";
+}
+
+/* end reset style */
+
+.text-center {
+    text-align: center !important;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-primary {
+    color: #420202;
+}
+
+.font-primary {
+    font-family: "primary" !important;
+}
+
+.font-secondary {
+    font-family: "secondary" !important;
+}
+
+.font-cadt {
+    font-family: "CADT";
+}
+
+.pd-20px {
+    padding: 20px;
+}
+
+
+footer img {
+    width: 100%;
+}
+
+/* Navigation Bar */
+.logo {
+    color: white;
+    font-family: "CADT";
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.navbar {
+    background: #420202;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+
+ul.menu-link {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+
+ul.menu-link>li>a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+}
+
+ul.menu-link>li {
+    height: 60px;
+    display: flex;
+}
+
+ul.menu-link>li:hover {
+    background: white;
+}
+
+ul.menu-link>li:hover a {
+    color: #420202;
+}
+
+/* Navigation Bar */
+.first-section {
+    width: 100%;
+    background: #420202;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.cust-pd {
+    padding-left: 10%;
+}
+
+.mg-bt {
+    margin-bottom: 20px;
+}
+
+.col-50 {
+    width: 50%;
+    float: left;
+}
+
+.img-home {
+    width: 80%;
+}
+
+.btn {
+    background: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #420202;
+    color: white;
+    border: 2px solid white;
+}
+
+.about-section {
+    display: flex;
+    align-items: center;
+    height: 70vh;
+}
+
+.shop {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+.menu-section{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #210303;
+}
+.bg-brown{
+    background-color: #210303;
+
+}
+/* .pic1 .pic2 .pic3 .pic4 .pic5 .pic6 .pic7 .pic8>img{
+    width: 25%;
+    margin: 10%;
+    height: 100px;
+    padding: 100px;
+} */
+ img{
+    width: 20%;
+    height: 200px;
+ }
+ .center{
+    align-items: center;
+    align-content: center;
+ }
