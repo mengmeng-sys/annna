@@ -170,6 +170,9 @@ ul.menu-link>li:hover a {
     padding: 50px;
     
  }
+ .logo1{
+    font-size: 30px;
+ }
  .s-r ,.f-r{
     margin-top: 4em;
     margin-bottom: 4em;
@@ -203,16 +206,14 @@ main{
     font-family: secondery;
  }
   
-.menu-section   .logo1 {
+.menu-section {
     margin-top: -7em;
     color: white;
-    /* margin-left: em; */
-    /* background-color: red; */
-    position: absolute;
-    left: 20em;
-    font-size: 30px;
+ display: flex;
+ flex-direction: column ;
     font-family: primary;
 }
+
 .team-section{
     background-color: rgb(254, 254, 254);
     /* width: 100%; */
@@ -253,41 +254,48 @@ main{
     flex-wrap: wrap;
 }
 .contact-section{
+    width: 100%;
     height: 100vh;
     background-color: rgb(110, 67, 81);
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(71, 60, 60);
     /* flex-direction: row; */
 }
-.logo3 h1{
-    /* background-color: rgb(47, 76, 102); */
-     text-align: center;
-     position: relative;
-     top: 60px;
+.contact-infoinput{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 30px;
+   
+}
+.text-icon{
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    align-items: center;
+}
+.text-icon p{
+    color: black;
+}
+.logo3 {
+
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
 .contact{
   display: flex;
-  background-color: aquamarine;
   flex-direction: column;
-  margin-left: 100px;
-  margin-top: 100px;
-  gap: 15px;
-  width: 30px;
+
 }
-.letter{
-    background-color: black;
-    display: flex;
-    width: 350px;
-    margin-left: 130px;
-    position: relative;
-    /* margin-top: -100px; */
-    top: -200px;
-}
-.letter p{
-    line-height: 28px;  
-    
-}
-.email{
+.form{
   display: flex;
   background-color: #420202;
-  
+  flex-direction: column;
+  gap: 1em;
 }
